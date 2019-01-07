@@ -20,6 +20,9 @@ def create_table
         name TEXT, 
         grade TEXT
         )
+        SQL
         
-        SQL 
+        DB[:conn].execute(sql) 
+      end
+        
 end
