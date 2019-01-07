@@ -12,4 +12,9 @@ def initialize(name, grade, id = nil)
   @id = id
 end
 
+
+def create_table
+  sql = <<-SQL
+  
+
 end
