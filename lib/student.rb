@@ -25,4 +25,6 @@ def create_table
         DB[:conn].execute(sql) 
       end
         
+def drop_table        
+        
 end
